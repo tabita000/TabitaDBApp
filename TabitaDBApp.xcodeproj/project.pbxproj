@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22662AD22B9A765700869B65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22662AD12B9A765700869B65 /* AppDelegate.swift */; };
+		22662AD42B9A765700869B65 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22662AD32B9A765700869B65 /* SceneDelegate.swift */; };
+		22662AD62B9A765700869B65 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22662AD52B9A765700869B65 /* ViewController.swift */; };
+		22662AD92B9A765700869B65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22662AD72B9A765700869B65 /* Main.storyboard */; };
+		22662ADC2B9A765700869B65 /* TabitaDBApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 22662ADA2B9A765700869B65 /* TabitaDBApp.xcdatamodeld */; };
+		22662ADE2B9A765800869B65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22662ADD2B9A765800869B65 /* Assets.xcassets */; };
+		22662AE12B9A765800869B65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22662ADF2B9A765800869B65 /* LaunchScreen.storyboard */; };
+		22662AEC2B9A765800869B65 /* TabitaDBAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22662AEB2B9A765800869B65 /* TabitaDBAppTests.swift */; };
+		22662AF62B9A765800869B65 /* TabitaDBAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22662AF52B9A765800869B65 /* TabitaDBAppUITests.swift */; };
+		22662AF82B9A765800869B65 /* TabitaDBAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22662AF72B9A765800869B65 /* TabitaDBAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22662AE82B9A765800869B65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22662AC62B9A765700869B65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22662ACD2B9A765700869B65;
+			remoteInfo = TabitaDBApp;
+		};
+		22662AF22B9A765800869B65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22662AC62B9A765700869B65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22662ACD2B9A765700869B65;
+			remoteInfo = TabitaDBApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		22662ACE2B9A765700869B65 /* TabitaDBApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabitaDBApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22662AD12B9A765700869B65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		22662AD32B9A765700869B65 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		22662AD52B9A765700869B65 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		22662AD82B9A765700869B65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		22662ADB2B9A765700869B65 /* TabitaDBApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TabitaDBApp.xcdatamodel; sourceTree = "<group>"; };
+		22662ADD2B9A765800869B65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22662AE02B9A765800869B65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		22662AE22B9A765800869B65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22662AE72B9A765800869B65 /* TabitaDBAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabitaDBAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22662AEB2B9A765800869B65 /* TabitaDBAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabitaDBAppTests.swift; sourceTree = "<group>"; };
+		22662AF12B9A765800869B65 /* TabitaDBAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabitaDBAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22662AF52B9A765800869B65 /* TabitaDBAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabitaDBAppUITests.swift; sourceTree = "<group>"; };
+		22662AF72B9A765800869B65 /* TabitaDBAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabitaDBAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22662ACB2B9A765700869B65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22662AE42B9A765800869B65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22662AEE2B9A765800869B65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22662AC52B9A765700869B65 = {
+			isa = PBXGroup;
+			children = (
+				22662AD02B9A765700869B65 /* TabitaDBApp */,
+				22662AEA2B9A765800869B65 /* TabitaDBAppTests */,
+				22662AF42B9A765800869B65 /* TabitaDBAppUITests */,
+				22662ACF2B9A765700869B65 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22662ACF2B9A765700869B65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22662ACE2B9A765700869B65 /* TabitaDBApp.app */,
+				22662AE72B9A765800869B65 /* TabitaDBAppTests.xctest */,
+				22662AF12B9A765800869B65 /* TabitaDBAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22662AD02B9A765700869B65 /* TabitaDBApp */ = {
+			isa = PBXGroup;
+			children = (
+				22662AD12B9A765700869B65 /* AppDelegate.swift */,
+				22662AD32B9A765700869B65 /* SceneDelegate.swift */,
+				22662AD52B9A765700869B65 /* ViewController.swift */,
+				22662AD72B9A765700869B65 /* Main.storyboard */,
+				22662ADD2B9A765800869B65 /* Assets.xcassets */,
+				22662ADF2B9A765800869B65 /* LaunchScreen.storyboard */,
+				22662AE22B9A765800869B65 /* Info.plist */,
+				22662ADA2B9A765700869B65 /* TabitaDBApp.xcdatamodeld */,
+			);
+			path = TabitaDBApp;
+			sourceTree = "<group>";
+		};
+		22662AEA2B9A765800869B65 /* TabitaDBAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				22662AEB2B9A765800869B65 /* TabitaDBAppTests.swift */,
+			);
+			path = TabitaDBAppTests;
+			sourceTree = "<group>";
+		};
+		22662AF42B9A765800869B65 /* TabitaDBAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				22662AF52B9A765800869B65 /* TabitaDBAppUITests.swift */,
+				22662AF72B9A765800869B65 /* TabitaDBAppUITestsLaunchTests.swift */,
+			);
+			path = TabitaDBAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22662ACD2B9A765700869B65 /* TabitaDBApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22662AFB2B9A765800869B65 /* Build configuration list for PBXNativeTarget "TabitaDBApp" */;
+			buildPhases = (
+				22662ACA2B9A765700869B65 /* Sources */,
+				22662ACB2B9A765700869B65 /* Frameworks */,
+				22662ACC2B9A765700869B65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TabitaDBApp;
+			productName = TabitaDBApp;
+			productReference = 22662ACE2B9A765700869B65 /* TabitaDBApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		22662AE62B9A765800869B65 /* TabitaDBAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22662AFE2B9A765800869B65 /* Build configuration list for PBXNativeTarget "TabitaDBAppTests" */;
+			buildPhases = (
+				22662AE32B9A765800869B65 /* Sources */,
+				22662AE42B9A765800869B65 /* Frameworks */,
+				22662AE52B9A765800869B65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22662AE92B9A765800869B65 /* PBXTargetDependency */,
+			);
+			name = TabitaDBAppTests;
+			productName = TabitaDBAppTests;
+			productReference = 22662AE72B9A765800869B65 /* TabitaDBAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		22662AF02B9A765800869B65 /* TabitaDBAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22662B012B9A765800869B65 /* Build configuration list for PBXNativeTarget "TabitaDBAppUITests" */;
+			buildPhases = (
+				22662AED2B9A765800869B65 /* Sources */,
+				22662AEE2B9A765800869B65 /* Frameworks */,
+				22662AEF2B9A765800869B65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22662AF32B9A765800869B65 /* PBXTargetDependency */,
+			);
+			name = TabitaDBAppUITests;
+			productName = TabitaDBAppUITests;
+			productReference = 22662AF12B9A765800869B65 /* TabitaDBAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22662AC62B9A765700869B65 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					22662ACD2B9A765700869B65 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					22662AE62B9A765800869B65 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 22662ACD2B9A765700869B65;
+					};
+					22662AF02B9A765800869B65 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 22662ACD2B9A765700869B65;
+					};
+				};
+			};
+			buildConfigurationList = 22662AC92B9A765700869B65 /* Build configuration list for PBXProject "TabitaDBApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22662AC52B9A765700869B65;
+			productRefGroup = 22662ACF2B9A765700869B65 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22662ACD2B9A765700869B65 /* TabitaDBApp */,
+				22662AE62B9A765800869B65 /* TabitaDBAppTests */,
+				22662AF02B9A765800869B65 /* TabitaDBAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22662ACC2B9A765700869B65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22662AE12B9A765800869B65 /* LaunchScreen.storyboard in Resources */,
+				22662ADE2B9A765800869B65 /* Assets.xcassets in Resources */,
+				22662AD92B9A765700869B65 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22662AE52B9A765800869B65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22662AEF2B9A765800869B65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22662ACA2B9A765700869B65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22662ADC2B9A765700869B65 /* TabitaDBApp.xcdatamodeld in Sources */,
+				22662AD62B9A765700869B65 /* ViewController.swift in Sources */,
+				22662AD22B9A765700869B65 /* AppDelegate.swift in Sources */,
+				22662AD42B9A765700869B65 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22662AE32B9A765800869B65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22662AEC2B9A765800869B65 /* TabitaDBAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22662AED2B9A765800869B65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22662AF62B9A765800869B65 /* TabitaDBAppUITests.swift in Sources */,
+				22662AF82B9A765800869B65 /* TabitaDBAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22662AE92B9A765800869B65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22662ACD2B9A765700869B65 /* TabitaDBApp */;
+			targetProxy = 22662AE82B9A765800869B65 /* PBXContainerItemProxy */;
+		};
+		22662AF32B9A765800869B65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22662ACD2B9A765700869B65 /* TabitaDBApp */;
+			targetProxy = 22662AF22B9A765800869B65 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		22662AD72B9A765700869B65 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22662AD82B9A765700869B65 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		22662ADF2B9A765800869B65 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22662AE02B9A765800869B65 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22662AF92B9A765800869B65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		22662AFA2B9A765800869B65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22662AFC2B9A765800869B65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T44788J83Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TabitaDBApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Tabita.TabitaDBApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		22662AFD2B9A765800869B65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T44788J83Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TabitaDBApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Tabita.TabitaDBApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		22662AFF2B9A765800869B65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T44788J83Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Tabita.TabitaDBAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TabitaDBApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TabitaDBApp";
+			};
+			name = Debug;
+		};
+		22662B002B9A765800869B65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T44788J83Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Tabita.TabitaDBAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TabitaDBApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TabitaDBApp";
+			};
+			name = Release;
+		};
+		22662B022B9A765800869B65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T44788J83Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Tabita.TabitaDBAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TabitaDBApp;
+			};
+			name = Debug;
+		};
+		22662B032B9A765800869B65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T44788J83Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Tabita.TabitaDBAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TabitaDBApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22662AC92B9A765700869B65 /* Build configuration list for PBXProject "TabitaDBApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22662AF92B9A765800869B65 /* Debug */,
+				22662AFA2B9A765800869B65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22662AFB2B9A765800869B65 /* Build configuration list for PBXNativeTarget "TabitaDBApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22662AFC2B9A765800869B65 /* Debug */,
+				22662AFD2B9A765800869B65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22662AFE2B9A765800869B65 /* Build configuration list for PBXNativeTarget "TabitaDBAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22662AFF2B9A765800869B65 /* Debug */,
+				22662B002B9A765800869B65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22662B012B9A765800869B65 /* Build configuration list for PBXNativeTarget "TabitaDBAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22662B022B9A765800869B65 /* Debug */,
+				22662B032B9A765800869B65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		22662ADA2B9A765700869B65 /* TabitaDBApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				22662ADB2B9A765700869B65 /* TabitaDBApp.xcdatamodel */,
+			);
+			currentVersion = 22662ADB2B9A765700869B65 /* TabitaDBApp.xcdatamodel */;
+			path = TabitaDBApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 22662AC62B9A765700869B65 /* Project object */;
+}
